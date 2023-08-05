@@ -82,7 +82,7 @@
 						<div class="describe__info__left">
 							<div class="left__title">
 								<div class="left__title--icon"></div>
-								<div class="left__title--text">特点</div>
+								<div class="left__title--text">Safety</div>
 							</div>
 							<div class="left__content">
 								<p>CITU combines internet security features to protect you from phishing attempts, malware-infected websites and other online threats. This provides an overall secure browsing experience.</p>
@@ -113,7 +113,7 @@
 						<div class="describe__info__left" style="margin-top: 40px">
 							<div class="left__title">
 								<div class="left__title--icon safety"></div>
-								<div class="left__title--text">安全</div>
+								<div class="left__title--text">financial security</div>
 							</div>
 							<div class="left__content">
 								<p>the code is completely open access to the code. At the same time, there are two types of coins at once (Shares and Dollars). A unique system of protection against inflation and high price fluctuations. You will no longer have the fear that tomorrow the miners will be reduced and the protection will fall.</p>
@@ -122,7 +122,7 @@
 						<div class="describe__info__left" style="margin-top: 40px">
 							<div class="left__title">
 								<div class="left__title--icon disperse"></div>
-								<div class="left__title--text">分散</div>
+								<div class="left__title--text">What decides</div>
 							</div>
 							<div class="left__content">
 								<p>
