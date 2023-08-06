@@ -9,13 +9,13 @@ function resolve(dir) {
 const cdn = {
 	externals: {
 		vue: 'Vue',
-		'vue-router': 'VueRouter',
-		axios: 'axios'
+		// 'vue-router': 'VueRouter',
+		// axios: 'axios'
 	},
 	js: [
 		'https://cdn.bootcss.com/vue/2.6.11/vue.runtime.min.js',
 		// 'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js',
-		'https://cdn.bootcss.com/axios/0.19.2/axios.min.js'
+		// 'https://cdn.bootcss.com/axios/0.19.2/axios.min.js'
 	],
 	css: []
 }
