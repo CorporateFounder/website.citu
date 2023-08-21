@@ -67,18 +67,12 @@ public class WebController {
         model.addAttribute("telegram", "https://t.me/citu_coin");
         model.addAttribute("github", "https://github.com/CorporateFounder/unitedStates_final");
         model.addAttribute("storage", "https://github.com/CorporateFounder/unitedStates_storage");
+        model.addAttribute("twitter", "@citu4030");
 
 
 
         model.addAttribute("text",
-"A completely unique project that has no analogues. A unique algorithm that made it possible to get rid of halving and at the same time maintain a limit on the number of coins by burning 0.2% of digital dollars from all accounts every six months and 0.4% of digital shares every six months. Two unique types of coins (digital dollars and digital stocks). For each extraction, a reward of 400 digital dollars and shares is given. Possibility to vote directly with the help of shares for the implementation of innovations in the project. The total number of digital dollars will never exceed 20 billion and the total number of shares will never exceed 10 billion.\n" +
-        "The unique algorithm allows you to make a steady course, now you will not be afraid of sharp drops in prices. Also, if you are a miner, now you do not need to be afraid that after halving, your production will be reduced. Guaranteed income for all miners.\n" +
-        "The ability to immediately start mining without buying a white IP.\n" +
-        "There are 576 blocks in a day, which is 4 times more likely to find a block than in bitcoin. Now you don’t need to be afraid of halving and look at the price with fear, if it doesn’t grow, now every miner has a guaranteed income and inflation is not created, and the money supply is also limited. The value of the coin will grow faster, since all settings were made on the basis of the Austrian school and monetarism, as well as on the book of Silvio Gesel. You are also contributing to the development of libertarianism.\n" +
-        "You get a guaranteed income when mining, but at the same time, the money supply is guaranteed not to grow above the limit, and there will be no inflation. A completely unique system that has never existed before and all the code was created from scratch.\n" +
-        "Your savings are now safe. A very rare resource that is becoming more expensive every day, the cost has increased five times in a week. Completely decentralized system.\n" +
-        "Transactions in 2 and a half minutes fall into the block.\n" +
-        "Reliable blockchain system.");
+"");
         return "main";
     }
 
@@ -87,43 +81,43 @@ public class WebController {
         List<String> strings = new ArrayList<>();
         strings.add("Why is the voting system implemented in this system.\n" +
                 "\n" +
-                "We have seen a lot of cryptocurrencies that split due to small problems.\n" +
-                "and instead of one coin, we get hundreds, which reduced the value of the coin, as well as\n" +
+                "We have seen many cryptocurrencies split due to small problems.\n" +
+                "and instead of one coin we get hundreds, which reduces the cost of the coin, as well as\n" +
                 "to capital losses.\n" +
-                "Each of you knows what is in one of the best coins, and the founder of all cryptocurrency,\n" +
-                "such as bitcoin, the reason for the split was simply the size of the block and from this was created\n" +
-                "many coins. In this system, shareholders, and everyone who has shares are shareholders,\n" +
-                "can solve such problems through voting and each decision will be valid only\n" +
-                "4 years, and if this decision is still relevant in four years, then the participants\n" +
-                "can easily support this decision again.\n" +
-                "1. Direct Democracy allows you to vote for Laws and members directly. This\n" +
-                "   a measure is needed when people have their own opinion on some specific issues.\n" +
-                "2. Factions are your delegates and represent the share that shareholders support.\n" +
-                "   Factions vote on the rules of the network");
+                "Each of you knows what is in one of the best coins and the founder of all cryptocurrencies,\n" +
+                "e.g. bitcoin, the reason for the split was simply the size of the block it was created from\n" +
+                "a lot of coins. In this system, shareholders and everyone who has shares are shareholders,\n" +
+                "it is possible to solve such problems by voting and each decision will be valid only\n" +
+                "year, and if this decision is relevant in four years, then the participants\n" +
+                "I can support this decision again.\n" +
+                "1. Direct Democracy allows you to directly vote for Laws and Members. This\n" +
+                "a measure is needed when people have their own opinion on some specific issues.\n" +
+                "2. Factions are your delegates, representing the share that the shareholders support.\n" +
+                "Factions vote on the rules of the network.");
 
         strings.add("Brief description of the cryptocurrency\n" +
-                "This cryptocurrency is unique, since the total money supply does not grow, but at the same time, the production of miners does not decrease.\n" +
+                "This cryptocurrency is unique, as the total money supply does not grow, but at the same time, the production of miners does not decrease.\n" +
                 "How did we achieve this?! All cryptocurrencies in the world now use only two strategies and\n" +
-                "I will give on the most successful currencies Bitcoin and Dogecoin.\n" +
-                "1. Bitcoin, in order to limit the number of coins, reduces production by half every four years.\n" +
-                "   But if the value does not double after each reduction, then many small players will go bankrupt,\n" +
-                "   as the cost of production is maintained, and profits are reduced. transaction costs can't either\n" +
-                "   grow, because if the cost is excessively high, then it makes no sense to acquire these coins.\n" +
-                "2. Dogecoin removed production cuts, but this creates inflation as the money supply continues to grow,\n" +
-                "   which causes problems.\n" +
-                "3. My coin burns 0.1% of digital dollars and 0.2% of digital shares from all accounts every half a year,\n" +
-                "   which allows miners to always mine 400 digital dollars and 400 digital shares for each block,\n" +
-                "   nor does the money supply grow as extraction and destruction come into equilibrium.\n" +
-                "4. You do not need to create a server with a white ip for mining. Since all local servers send\n" +
-                "   their blocks to a global server that stores, updates and transmits the actual blockchain.\n" +
+                "I will give for the most successful currencies Bitcoin and Dogecoin.\n" +
+                "1. Bitcoin, in order to limit the number of coins, cuts production by half every four years.\n" +
+                "But if the value does not double after each decline, then many small players will go bankrupt,\n" +
+                "because the cost of production is maintained, and profits are reduced. Transaction costs also cannot\n" +
+                "grow, because if the cost is excessively high, then there is no point in acquiring these coins.\n" +
+                "2. Dogecoin has eliminated the decline in production, but this creates inflation as the money supply continues to grow,\n" +
+                "which causes problems.\n" +
+                "3. My coin burns 0.2% of digital dollars and 0.4% of digital shares from all accounts every six months\\n\" +\n" +
+                "which allows miners (difficulty * 30) if the index is even and if not even (difficulty * 30) +1 dollars and digital shares for each block,\n" +
+                "and the money supply does not increase as extraction and destruction come into equilibrium.\n" +
+                "4. You do not need to create a server with a white IP for mining. Since all local servers send\n" +
+                "their blocks to a global server that stores, updates and transmits the actual block chain.\n" +
                 "5. All your transactions automatically go to the global server and all miners automatically\n" +
-                "   they take transactions and add them to the block, so the chances that your transfer will be added to the block,\n" +
-                "   significantly higher.\n" +
+                "they take transactions and add them to a block, so the likelihood that your transfer will be added to a block,\n" +
+                "significantly higher.\n" +
                 "6. Uses unique SHA-256 algorithm. In this system, the complexity is determined by the number\n" +
-                "   zeros in the hash string when finding a block, but the actual blockchain is not only the longest blockchain,\n" +
-                "   but also one where the sum of all zeros is greater than that of an alternative blockchain.\n" +
-                "7. About 576 blocks are mined per day, which allows more to be mined.\n" +
-                "8. Difficulty is adjusted every half a year.");
+                "zeros in the hash string when looking for a block, but the actual blockchain is not only the longest blockchain,\n" +
+                "but also one in which the sum of all zeros is greater than that of the alternative blockchain.\n" +
+                "7. About 576 blocks are mined per day, which allows you to mine more.\n" +
+                "8. Difficulty is adjusted every six months.");
         model.addAttribute("title", "Summary and benefits");
         model.addAttribute("texts", strings);
         return "summary_and_benefits";
@@ -186,35 +180,40 @@ public class WebController {
     public String howToMining(Model model){
         model.addAttribute("title", "How to mining");
         model.addAttribute("text1", "Block mining\n" +
-                "\n" +
                 "HOW TO START MINING\n" +
                 "Before you start mining blocks, you\n" +
                 "you need to set the address of the miner to which the block will be mined.\n" +
                 "Once you have set your address as a miner, there are two options.\n" +
                 "\n" +
-                "OPTION 1.\n" +
-                "To start mining, after launch, go to\n" +
-                "there will be a button on http://localhost:8082/miningblock. START MINING\n" +
-                "clicking on it will automatically produce a block.");
+                "\n" +
+                "\n" +
+                "OPTION 1\n" +
+                "Press the start button, to stop mining, click on the main page and appear\n" +
+                "the page where the stop button will be.");
 
-        model.addAttribute("text2", "### OPTION 2\n" +
-                "push button ***Constant mining 576 block in while***\n" +
-                "there will be a cycle of 576 attempts to find blocks\n" +
-                "\n" +
-                "\n" +
-                "OPTION 3.\n" +
+        model.addAttribute("text2", "OPTION 2.\n" +
                 "calling http://localhost:8082/mine automatically starts mining.\n" +
                 "\n" +
                 "\n" +
+                "LOAD SHARING AMONG MULTIPLE COMPUTERS.\n" +
+                "Imagine that you have two computers and want them to mine\n" +
+                "blocks, if you just enable them on two computers, they will\n" +
+                "iterate over both from 0 to infinity.\n" +
                 "\n" +
+                "You can start iterating from 0 on one computer, and from 5000 thousand on the second,\n" +
+                "thus the second will check a little earlier. Or 10,000 thousand.\n" +
+                "You must choose the optimal numbers yourself.\n" +
                 "\n" +
-                "Blockchain complexity adapts similarly to bitcoin, but adaptation happens\n" +
-                "once every half day.\n" +
-                "Each block gives 400 digital dollars and 400 digital shares\n" +
+                "But the number must not be equal to or greater than the maximum value.\n" +
                 "\n" +
-                "The current blockchain is not only the longest blockchain, but it should also have more zeros.\n" +
+                "Blockchain Difficulty Adapts Like Bitcoin, But Adaptation Happens\n" +
+                "once every 12 hours (approximately) 288 blocks.\n" +
+                "Each block gives (difficulty * 30 ) + odd = where odd is 0 if the block index is even and 1 if not even\n" +
                 "\n" +
-                "this method counts the number of zeros in the blockchain and the current blockchain, not only the longest, but also the one with the most zeros\n");
+                "The current blockchain is not only the longest, but there should be more zeros in it.\n" +
+                "\n" +
+                "This method counts the number of zeros in the blockchain and the current blockchain, not only the longest,\n" +
+                "but also the one with the most zeros");
 
         return "how_to_mining";
     }
@@ -332,7 +331,7 @@ public class WebController {
                 "in his position, for example, if the account ceased to be in CORPORATE_COUNCIL_OF_REFEREES, his vote as\n" +
                 "CORPORATE_COUNCIL_OF_REFEREES does not count and will not count in voting. All votes are valid until the bills\n" +
                 "voters are in their positions. Only those votes from which no more than\n" +
-                "four years, but each participant may at any time renew their vote." +
+                "year, but each participant may at any time renew their vote." +
                 "" +
                 "2. VOTE_STOCK (How shares are voted.)\n" +
                 "How shares are voted.\n" +
